@@ -7,11 +7,13 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { Link } from 'react-scroll';
+import { banner } from '../Assets/images';
 
 export default function Home() {
+   
   return (
     <section id='home' className='pt-10 w-full pb-20 flex flex-col gap-10 lg:gap-0 lgl:flex-row items-center border-b-[1px] font-titleFont border-b-black '>
-      <div className='leftside lgl:w-1/2 gap-20 flex flex-col  text-titleFont'>
+      <div className='leftside lgl:w-1/2 gap-20 flex flex-col text-titleFont'>
       <div className='flex flex-col gap-5'>
       <h3 className='text-lightText text-lg font-normal'>WELCOME TO MY WORLD</h3>
         <h1 className='text-6xl font-bold text-white'>Hi, I'm <span className='text-designColor'>ahmed arafa</span></h1>
@@ -64,8 +66,11 @@ export default function Home() {
        </div>
       
       </div>
-      <div className='right-side'> 
-
+      <div className='right-side lgl:w-1/2 flex-1 w-full flex justify-center items-center relative'> 
+    
+        <img src={banner} alt="banner" className='w-[300px] h-[400px]  lgl:w-[500px] lgl:h-[680px] z-10' />
+        <div className='absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-#1e2024 shadow-shadowOne flex justify-center items-center'></div>
+    
       </div>
     </section>
   )
