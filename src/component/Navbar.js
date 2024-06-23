@@ -73,13 +73,13 @@ export default function Navbar() {
                         <h3 className='my-5'>FIND ME IN</h3>
                         <div className='flex gap-4'>
                             <span className='home-icon'>
-                                <a href="https://www.facebook.com/legendof.ahmed" target="_blank" rel="noopener noreferrer"><FaFacebook className='icon-1' /></a>
+                                <a href="https://www.facebook.com/legendof.ahmed" ><FaFacebook className='icon-1' /></a>
                             </span>
                             <span className='home-icon'>
                                 <a href="https://www.linkedin.com/in/ahmed-arafa-155768188/?trk=public_profile-settings_edit-profile-content&original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=eg" target="_blank" rel="noopener noreferrer"><FaLinkedin className='icon-1' /></a>
                             </span>
                             <span className='home-icon'>
-                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter className='icon-1' /></a>
+                                <a href="https://twitter.com" ><FaTwitter className='icon-1' /></a>
                             </span>
                         </div>
                         <span onClick={showMenu}>
