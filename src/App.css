@@ -1,3 +1,9 @@
+
+.nav-list:hover{
+  color:#ff014f ;
+  transition: all ease .75s;
+}
+
 .home-icon{
   width: 60px;
   height: 60px;
@@ -11,6 +17,8 @@
   justify-content: center;
   transition: all ease .5s;
   
+  
+  
 }
 .home-icon:hover{
   opacity: 1;
@@ -20,4 +28,20 @@
 .home-icon:hover .icon-1{
  color:#ff014f ;
   
+}
+.feature-box{
+  transform: translateY(70px);
+  background-color:#212428;
+  transition: all ease .5s;
+  --tw-gradient-from: #000;
+  --tw-gradient-to: #000;
+  --tw-gradient-stops: var(--tw-gradient-from black), var(--tw-gradient-torgb(30, 32, 36));
+  
+
+}
+.feature-box:hover{
+  transform: translateY(0px);
+  --tw-gradient-from: #000;
+  --tw-gradient-to: rgb(30 32 36 / 1);
+  --tw-gradient-stops: var(--tw-gradient-from black), var(--tw-gradient-torgb(30, 32, 36));
 }
