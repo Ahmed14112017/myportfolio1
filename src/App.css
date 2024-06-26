@@ -45,3 +45,8 @@
   --tw-gradient-to: rgb(30 32 36 / 1);
   --tw-gradient-stops: var(--tw-gradient-from black), var(--tw-gradient-torgb(30, 32, 36));
 }
+
+.project-img:hover{
+  transform: scale(1.1);
+  border-radius: 20px;
+}
