@@ -50,4 +50,20 @@
   transform: scale(1.1);
   border-radius: 20px;
 }
-
+.resumeli{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+.resumeli:hover{
+cursor: pointer;
+opacity: 0.9;
+}
+.resumeli:active{
+  border: #ff014f solid 1px;
+}

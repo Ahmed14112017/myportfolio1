@@ -5,7 +5,7 @@ import { projectThree } from '../Assets/images'
 
 export default function Projects() {
   return (
-    <section id='Projects' className='w-full py-20  border-b-[1px] border-b-black'>
+    <section id='projects' className='w-full py-20  border-b-[1px] border-b-black'>
       <div className='flex flex-col gap-6'>
         <div className='text-center'>
         <h4 className='text-designColor pb-6'>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
