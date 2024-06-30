@@ -35,9 +35,6 @@ export default function Navbar() {
             <Link to='resume'smooth={true} duration={500}>Resume</Link>
         </li>
         <li >
-            <Link to='testmonial'smooth={true} duration={500}>Testmonial</Link>
-        </li>
-        <li >
             <Link to='contact'smooth={true} duration={500}>Contact</Link>
         </li>
       </ul>
