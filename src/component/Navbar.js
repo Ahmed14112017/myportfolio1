@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <nav className='w-full sticky  bg-bodyColor z-20 top-0 h-24 text-lightText flex justify-between items-center border-b-[1px] border-b-gray-600 '>
         <Link to='home' smooth={true} duration={500}>
-        <img src={logo} alt='logo' />
+        <img src={logo} alt='logo' className='w-[50px] object-fill rounded-full' />
         </Link>
       <ul className='hidden items-center gap-6 mdl:flex  cursor-pointer'>
         <li className='nav-list'>

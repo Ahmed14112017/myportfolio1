@@ -68,7 +68,7 @@ export default function Home() {
       </div>
       <div className='right-side lgl:w-1/2 flex-1 w-full flex justify-center items-center relative'> 
     
-        <img src={banner} alt="banner" className='w-[300px] h-[400px]  lgl:w-[500px] lgl:h-[680px] z-10' />
+        <img src={banner} alt="banner" className='w-[300px] h-[400px]  lgl:w-[500px] lgl:h-[680px] z-10 object-cover' />
         <div className='absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-#1e2024 shadow-shadowOne flex justify-center items-center'></div>
     
       </div>

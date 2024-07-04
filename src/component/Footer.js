@@ -9,7 +9,7 @@ export default function Footer() {
     <section className='w-full py-20 px-10'>
       <div className='flex justify-between items-center'>
         <div className='flex flex-col gap-4'>
-            <img src={logo} alt='logo' className='w-[100px] object-cover' />
+            <img src={logo} alt='logo' className='w-[100px] rounded-full object-cover' />
         <div className='flex justify-start gap-4 items-center'>
             <span className='footer-icon'> <Link to="https://www.facebook.com/legendof.ahmed"><FaFacebook className='icon-1'/></Link></span>
         <span className='footer-icon'><Link to="https://www.linkedin.com/in/ahmed-arafa-155768188/?trk=public_profile-settings_edit-profile-content&original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=eg"><FaLinkedin className='icon-1'/></Link></span>
